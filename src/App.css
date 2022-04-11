@@ -1,38 +1,132 @@
-.App {
+/* stolen CSS */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Bebas Neue';
+}
+
+body {
+  background: #1c1b1a;
+  width: 98.9%;
+}
+
+header {
+  background-color: #2e2d2c;
+  margin: auto;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 200;
+  font-size: 300%;
+  padding-left: 2%;
+}
+
+footer {
+  position: absolute;
   text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+footer p {
+  color: #ccc;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
   display: flex;
-  flex-direction: column;
+}
+h2 {
+  font-size: 2.5rem;
+}
+
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.container {
+  position: relative;
+  width: 50px;
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+img {
+  height: 100%;
+  /* equals max image height */
+  width: 150px;
+  border: 1px solid grey;
+}
+
+.circle-img {
+  white-space: nowrap;
+  border-radius: 62px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.card {
+  background: whitesmoke;
+  width: 60%;
   align-items: center;
+  flex-direction: column;
+  border-radius: 25px;
+  padding: 2%;
+  box-shadow: 10px 10px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 7%;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  font-family: 'Bebas Neue';
+  margin: 20px;
+	background-color:#242424;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-shadow:0px 1px 0px #2f6627;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover {
+	background-color:#676b65;
+}
+button:active {
+	position:relative;
+	top:1px;
 }

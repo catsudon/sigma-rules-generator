@@ -1,17 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Footer from './components/Footer.jsx';
+import Header from './components/Header.jsx';
+import Card, { createCard } from './components/Card.jsx';
+import './App.css';
+import data from './data.js'
+import ReactAudioPlayer from 'react-audio-player';
+import ost from './ost.mp3';
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <div>
+    <Header />
+
+    <Card />
+    <ReactAudioPlayer
+      src={ost}
+      autoPlay
+      control
+    />
+    <Footer />
+  </div>
+  ,
+  document.getElementById("root")
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
