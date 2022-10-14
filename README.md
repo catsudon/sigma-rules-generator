@@ -12,13 +12,13 @@
 ## About this repo
 This repo contains a Sigma Rules Generator. A website to generate a Sigma rule for our fellows when they are misguided.
 
-<a name="#What-are-Sigma-Rules"></a>
+<a name="What-are-Sigma-Rules"></a>
 
 ## What are Sigma Rules?
 
 To have a better understanding of Sigma Rules, you might want to know about Sigma.
 
-<a name="#What-is-Sigma"></a>
+<a name="What-is-Sigma"></a>
 
 ### So what exactly is Sigma?     
 To quote [Urban Dictionary](https://www.urbandictionary.com/define.php?term=Sigma),
@@ -32,6 +32,8 @@ One step **above** an alpha male.
     <img src="https://media.tenor.com/kNbjoX2F_OcAAAAC/chad-monke.gif" style="height:400px;"/>
 </p>
 
+<a name="benefits"></a>
+
 ### Benefits of a Sigma Male Lifestyle
 According to me.
 <p float="left" align='center'>
@@ -41,6 +43,7 @@ According to me.
 >***Time, Money, Energy. The men who had acquired everything in this world, the Sigma male."***
     <div style="text-align: right"> probably Eiichiro Oda </div>
 
+<a name="Example-of-Sigma"></a>
 
 ### Example of Sigma
 <p float="left" align='center'>
