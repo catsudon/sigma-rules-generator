@@ -340,9 +340,6 @@ const data = [
     },
     {
         quote: "Don't let a women ruin your life , ruin it yourself"
-    },
-    {
-        quote: "All women are inferior to men"
     }
 ]
 
